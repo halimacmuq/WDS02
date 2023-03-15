@@ -1,0 +1,77 @@
+body,
+.tab {
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+}
+
+#header {
+  margin-top: 2%;
+}
+
+#pfp {
+  background-image: url(/images/pfp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-size: 200px;
+  margin: auto;
+  border: white 4px solid;
+  border-radius: 150px;
+}
+
+.header-text {
+  margin-bottom: 2%;
+  text-align: center;
+  color: white;
+}
+
+.header-title {
+  font-size: 2.5rem;
+}
+
+.description,
+.tab {
+  font-size: 1.4rem;
+}
+
+.menu,
+.content {
+  display: block;
+}
+
+.menu {
+  margin-top: 0.5%;
+  text-align: center;
+}
+
+.tab {
+  display: inline-block;
+  width: 20%;
+  padding: 0.5% 0;
+  margin-right: 1%;
+  background-color: #33312c;
+  border: solid 2px wheat;
+  color: wheat;
+  text-decoration-line: none;
+}
+
+.content {
+  width: 60%;
+  margin: 3% auto;
+}
+
+h2 {
+  color: white;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: wheat;
+}
+
+li,
+.about-text {
+  font-size: 1.3rem;
+  color: wheat;
+}
