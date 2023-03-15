@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+  padding: 2% 4%;
+  background-color: #0e5cc2;
+  color: white;
+}
+
+#pfp,
+.header-text {
+  vertical-align: middle;
+  display: inline-block;
+}
+#pfp {
+  background-image: url(https://images.unsplash.com/photo-1512850692650-c382e34f7fb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-size: 200px;
+  margin: auto;
+  border: white 4px solid;
+  border-radius: 150px;
+}
+
+.header-text {
+  margin-left: 4%;
+}
+
+.header-title {
+  font-size: 2.5rem;
+}
+
+.description,
+.tab {
+  font-size: 1.4rem;
+}
+
+.menu,
+.content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu {
+  margin-top: 0.5%;
+  width: 30%;
+  text-align: center;
+}
+
+.tab {
+  display: block;
+  width: 80%;
+  padding: 1% 0;
+  margin: 1% 0;
+  background-color: #e1eaf5;
+  border: solid 2px #0e5cc2;
+  text-decoration-line: none;
+}
+
+.content {
+  width: 60%;
+}
+
+h2 {
+  color: #0e5cc2;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+li,
+.about-text, .stylesheet-option {
+  font-size: 1.3rem;
+}
+
+.stylesheet-option {
+  color: #0e5cc2;
+}
