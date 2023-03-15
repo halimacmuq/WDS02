@@ -31,7 +31,8 @@ body,
 }
 
 .description,
-.tab {
+.tab,
+.stylesheet-option {
   font-size: 1.4rem;
 }
 
@@ -71,7 +72,12 @@ h4 {
 }
 
 li,
+.stylesheet-option,
 .about-text {
   font-size: 1.3rem;
   color: wheat;
+}
+
+button {
+  background-color: grey;
 }
