@@ -72,10 +72,15 @@ h4 {
 }
 
 li,
-.about-text, .stylesheet-option {
+.about-text,
+.stylesheet-option {
   font-size: 1.3rem;
 }
 
 .stylesheet-option {
   color: #0e5cc2;
+}
+
+button {
+  background-color: azure;
 }
